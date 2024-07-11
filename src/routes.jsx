@@ -2,11 +2,15 @@ import App from "./App";
 import About from "./About";
 import Software from "./Software";
 import Art from "./Art";
+import { Navigate } from 'react-router-dom';
 const routes = [
     {
-        path: "/",
         element: <App />,
         children: [
+            {
+                path: "/",
+                element: <Navigate to="/about" />,
+            },
             {
                 path: "/about",
                 element: <About />,
