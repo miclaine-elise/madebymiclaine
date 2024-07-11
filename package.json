@@ -2,7 +2,7 @@
   "name": "madebymiclaine",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://miclaine-elise.github.io/madebymiclaine/",
+  "homepage": "https://miclaine.com/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
