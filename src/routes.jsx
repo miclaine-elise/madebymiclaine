@@ -1,6 +1,7 @@
 import App from "./App";
 import About from "./About";
 import Software from "./Software";
+import Privacy from "./Privacy";
 import Art from "./Art";
 import { Navigate } from 'react-router-dom';
 const routes = [
@@ -22,6 +23,10 @@ const routes = [
             {
                 path: "/art",
                 element: <Art />
+            },
+            {
+                path: "/privacy",
+                element: <Privacy />
             }
 
         ]

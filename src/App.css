@@ -14,7 +14,7 @@ p {
   max-width: 1280px;
   margin: 0 auto;
   text-align: center;
-  --primary-color: #1949a9f4;
+  --primary-color: #273ed8;
   --secondary-color: #373738;
 
 }
@@ -32,22 +32,6 @@ p {
 
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .card {
@@ -254,13 +238,17 @@ button:focus-visible {
   font-size: 2.5rem;
   color: var(--primary-color);
   line-height: 2.5rem;
-  font-weight: 100;
+  font-weight: 700;
 }
 
 ul,
 h4,
 h1 {
   margin: 0;
+}
+
+li {
+  margin: 0.5rem
 }
 
 .software-project img {

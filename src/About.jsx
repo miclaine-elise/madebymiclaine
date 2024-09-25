@@ -41,7 +41,7 @@ function About() {
                 <h1>A little bit about me..</h1>
                 <p>I love to create. Since I was young, I was the girl staying in from recess because I couldn't put down the paint brush. Over time, this desire to create found many different mediums- photography, sewing, woodworking, and finally engineering. </p>
                 <p>I got my degree in Electrical Engineering in 2020 and was hired on as an engineer at SpaceX, where I worked on the Falcon rocket, supporting launches, and later developed and troubleshooted PCBA’s for the Starlink program. </p>
-                <p>In 2023 I transitioned into software development and UI/UX design. Checkout my portfolio.</p>
+                <p>In 2023 I transitioned into software development and UI/UX design. Checkout my <a href="miclaine.com/software">portfolio.</a></p>
             </div>
             <div className="about-images">
                 <img src={aboutMe1}></img>
