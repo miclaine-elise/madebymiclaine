@@ -1,0 +1,10 @@
+<script type="text/javascript">
+    // Redirect any 404 path to index.html with a hash-based route for HashRouter
+    var redirectTo = window.location.pathname;
+    var baseUrl = window.location.origin;
+
+    // If the URL doesn't have a hash and isn't the root, redirect with a hash
+    if (!window.location.hash && window.location.pathname !== "/") {
+        window.location.replace(baseUrl + "/#" + redirectTo);
+    }
+</script>
