@@ -2,6 +2,7 @@ import portrait from './assets/portrait.jpg';
 import downloadIcon from './assets/download.svg';
 import emailIcon from './assets/email.svg';
 import instagramIcon from './assets/instagram.svg';
+import resume from './assets/Emtman_Resume.pdf';
 import aboutMe1 from './assets/about-me1.jpg';
 import aboutMe2 from './assets/about-me2.jpg';
 import aboutMe3 from './assets/about-me3.jpg';
@@ -29,7 +30,7 @@ function About() {
                         <img src={instagramIcon}></img>
                         <span>madebymiclaine</span>
                     </a>
-                    <a href=''>
+                    <a href={resume}>
                         <img src={downloadIcon}></img>
                         <span>Download My Resume</span>
                     </a>

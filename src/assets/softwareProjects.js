@@ -14,7 +14,7 @@ const projects = [
             "'Feed' view, which allows the user to view and 'like' updates made by the users they follow",
             "Tech Stack: SwiftUI, Firebase"
         ],
-        "link": "https://adaptiveskateboard.com",
+        "link": "https://apps.apple.com/us/app/rex-all-your-favorites/id6717573134",
         "github": "https://github.com/miclaine-elise/RexApp"
     },
     {
